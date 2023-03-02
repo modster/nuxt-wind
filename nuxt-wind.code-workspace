@@ -4,5 +4,21 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"deno.enable": false,
+		"deno.unstable": true,
+		"deno.suggest.completeFunctionCalls": true,
+		"deno.internalDebug": true,
+		"deno.inlayHints.parameterTypes.enabled": true,
+		"deno.inlayHints.propertyDeclarationTypes.enabled": true,
+		"deno.inlayHints.variableTypes.enabled": true,
+		"deno.inlayHints.functionLikeReturnTypes.enabled": true,
+		"deno.inlayHints.enumMemberValues.enabled": true,
+		"deno.codeLens.references": true,
+		"deno.codeLens.referencesAllFunctions": true,
+		"deno.codeLens.test": true,
+		"deno.codeLens.implementations": true,
+		"deno.inlayHints.parameterNames.enabled": "all",
+		"deno.lint": false
+	}
 }

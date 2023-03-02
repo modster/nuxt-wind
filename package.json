@@ -1,14 +1,18 @@
 {
-  "name": "content-wind-template",
+  "name": "nuxt-wind",
   "private": true,
+  "description": "Nuxt.js 3 project built with Content-Wind Template. The content module supports MDC syntax which enables  to fetch data from a headless CMS. Has components that query JSON, YAML, XML, files in the special content directory. for typography, buttons, cards, and more.",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "generate": "nuxi generate"
   },
   "devDependencies": {
+    "@nuxt-themes/typography": "^0.9.1",
     "content-wind": "latest",
+    "eslint": "^8.35.0",
+    "eslint-plugin-vue": "^9.9.0",
     "nuxt": "latest"
   }
 }
